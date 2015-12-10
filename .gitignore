@@ -28,3 +28,7 @@ node_modules
 
 # IDE configuration
 .idea
+
+# Webpack dist file
+/dist/*
+!/dist/index.html

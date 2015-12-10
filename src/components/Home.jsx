@@ -8,6 +8,7 @@ export const PureHome = React.createClass({
     render() {
         return <div className="hello">
             <h1>Hello! Welcome to Work Abroad.</h1>
+            <span className="label label-success"><i className="glyphicon glyphicon-phone"></i> Success</span>
         </div>;
     }
 });

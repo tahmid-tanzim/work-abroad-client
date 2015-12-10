@@ -12,7 +12,7 @@ module.exports = {
     devtool: 'eval',
     module: {
         loaders: [
-            {test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel'},
+            {test: /\.jsx?$/, exclude: /node_modules/, loader: 'react-hot!babel'},
             {test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader')},
             {test: /\.less$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!less-loader')},
             {test: /\.png$/, loader: 'url-loader?prefix=img/&limit=5000'},

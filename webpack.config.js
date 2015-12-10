@@ -6,7 +6,7 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?' + appConfig.serverUrl,
         'webpack/hot/only-dev-server',
-        './src/index.jsx',
+        './src/app.jsx',
         './src/css/style.less'
     ],
     devtool: 'eval',
